@@ -23,27 +23,22 @@
             background: #444;
             color: white;
         }
-        a
-        {
-            color:white;
+        a {
+            color: white;
         }
         marquee {
             color: #ff4081;
             font-size: 18px;
         }
-        section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
+        table {
+            margin: auto;
+            border-spacing: 20px;
         }
-        article {
+        td {
             background: white;
             padding: 15px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            width: 250px;
             text-align: center;
         }
         img {
@@ -72,26 +67,28 @@
     <marquee>New Arrivals! Get the latest fashion trends now!</marquee>
     <main>
         <h2>Our Products</h2>
-        <section>
-            <article>
-                <img src="fashion-dress.webp" alt="Elegant Dress">
-                <h3>Elegant Dress</h3>
-                <p>Price: $50</p>
-                <button>Buy Now</button>
-            </article>
-            <article>
-                <img src="fashion-shoes.jpeg" alt="Stylish Shoes">
-                <h3>Stylish Shoes</h3>
-                <p>Price: $40</p>
-                <button>Buy Now</button>
-            </article>
-            <article>
-                <img src="handbag.jpeg" alt="Chic Handbag">
-                <h3>Chic Handbag</h3>
-                <p>Price: $60</p>
-                <button>Buy Now</button>
-            </article>
-        </section>
+        <table>
+            <tr>
+                <td>
+                    <img src="fashion-dress.webp" alt="Elegant Dress">
+                    <h3>Elegant Dress</h3>
+                    <p>Price: $50</p>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="fashion-shoes.jpeg" alt="Stylish Shoes">
+                    <h3>Stylish Shoes</h3>
+                    <p>Price: $40</p>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="handbag.jpeg" alt="Chic Handbag">
+                    <h3>Chic Handbag</h3>
+                    <p>Price: $60</p>
+                    <button>Buy Now</button>
+                </td>
+            </tr>
+        </table>
     </main>
     <footer>
         <p>&copy; 2025 Fashion Store. All rights reserved.</p>
