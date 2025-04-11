@@ -27,14 +27,14 @@
             color: #ff4081;
             font-size: 18px;
         }
-        .products {
+        section {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px;
             padding: 20px;
         }
-        .product {
+        article {
             background: white;
             padding: 15px;
             border-radius: 10px;
@@ -42,18 +42,18 @@
             width: 250px;
             text-align: center;
         }
-        .product img {
+        img {
             max-width: 100%;
             border-radius: 10px;
         }
-        .hover-button {
+        button {
             background: #ff4081;
             color: white;
             padding: 10px;
             border: none;
             cursor: pointer;
         }
-        .hover-button:hover {
+        button:hover {
             background: #e6005c;
         }
     </style>
@@ -68,26 +68,26 @@
     <marquee>New Arrivals! Get the latest fashion trends now!</marquee>
     <main>
         <h2>Our Products</h2>
-        <div class="products">
-            <div class="product">
-                <img src="https://via.placeholder.com/200" alt="Dress">
+        <section>
+            <article>
+                <img src="fashion-dress.jpg" alt="Elegant Dress">
                 <h3>Elegant Dress</h3>
                 <p>Price: $50</p>
-                <button class="hover-button">Buy Now</button>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/200" alt="Shoes">
+                <button>Buy Now</button>
+            </article>
+            <article>
+                <img src="fashion-shoes.jpg" alt="Stylish Shoes">
                 <h3>Stylish Shoes</h3>
                 <p>Price: $40</p>
-                <button class="hover-button">Buy Now</button>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/200" alt="Handbag">
+                <button>Buy Now</button>
+            </article>
+            <article>
+                <img src="fashion-handbag.jpg" alt="Chic Handbag">
                 <h3>Chic Handbag</h3>
                 <p>Price: $60</p>
-                <button class="hover-button">Buy Now</button>
-            </div>
-        </div>
+                <button>Buy Now</button>
+            </article>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Fashion Store. All rights reserved.</p>
